@@ -8,6 +8,7 @@ This project aims to develop a website that allows users to find concerts/events
 The key objective of this project is to deliver a Website that enables users to:
 
 - Lookup Upcoming/Current Events/Concerts based on search criteria (MUST)
+- The project is set to commence on 2023-12-20 and conclude by 2024-01-01.
 
 
 ## 3. Milestones
@@ -27,15 +28,16 @@ The project will be divided into several milestones to ensure successful deliver
 
 The project will produce the following deliverables:
 
+1. A responsive website allows users to search for events and concerts.
+2. A search feature that filters concerts based on user criteria such as location, date, and genre.
+3. A user-friendly interface with accessibility considerations.
+4. Documentation for the site's maintenance and potential further development.
 
-1. Fully functional website for Events/Concerts lookup.
-2. Core feature looking up Concerts based on search criteria. 
 
 
+## 5. Risks, Assumptions, and Constraints
 
-## 7. Risks, Assumptions, and Constraints
-
-### 7.1 Risks
+### 5.1 Risks
 
 1. Technical challenges in integrating API.
 3. Data security and privacy concerns related to user information and location data.
@@ -44,11 +46,11 @@ The project will produce the following deliverables:
 6. Minor UI glitches during non-critical user interactions
 
 
-### 7.2 Assumptions
+### 5.2 Assumptions
 
 1. I have the required expertise for this project.
 2. Reliable third-party services for hosting, domain and API will be available.
 
-### 7.3 Constraints
+### 5.3 Constraints
 
 1. The website will not store sensitive personal information beyond names and emails.
