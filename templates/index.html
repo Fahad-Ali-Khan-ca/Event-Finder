@@ -1,14 +1,26 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Event Finder</title>
-</head>
-<body>
-    <h1>Welcome to the Event Finder!</h1>
-    <form action="/search" method="get">
-        <label for="location">Enter a City:</label>
-        <input type="text" id="city" name="city" required>
-        <button type="submit">Search</button>
+{% extends 'base.html'%}
+{% block head %}
+<title> Event Finder</title>
+{% endblock %}
+
+{% block body %}
+<h1>Welcome to the Event Finder!</h1>
+<header>
+    <h2>Search for Events</h2>
+    {% if error %}
+    <p class="error"><strong>Error:</strong> {{error}}</p>
+    {% endif %}
+</header>
+<main>
+    <form action="/search" method="POST">
+        <input type="text" id="city" name="city" placeholder="Enter City">
+        <input type="date" placeholder="Enter Start Date" id="startdate" name="startdate">
+        <input type="date" placeholder="Enter End Date" id="enddate" name="enddate">
+        <input type="text" placeholder="Enter Artist Name" id="artist" name="artist">
+        <button>Search</button>
+        
     </form>
-</body>
-</html>
+    
+</main>
+{% endblock %}
+

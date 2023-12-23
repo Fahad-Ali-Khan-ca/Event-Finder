@@ -1,0 +1,27 @@
+input[type="date"]:before {
+    content: attr(placeholder) !important;
+    color: #aaa;
+    margin-right: 0.5em;
+  }
+  input[type="date"]:focus:before,
+  input[type="date"]:valid:before {
+    content: "";
+  }
+
+body {
+    font-family:Arial;
+    color:#d99494;
+ }
+
+ button{
+	background: none;
+	outline : none;
+	background: #da2859;
+	padding: 10px 40px;
+	font-size: 17px;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-bottom: 30px;
+}
