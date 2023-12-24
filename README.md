@@ -1,4 +1,4 @@
-# Concert Finder 
+# Event Finder 
 
 ## 1. Introduction
 This project aims to develop a website that allows users to find concerts/events based on their regions
