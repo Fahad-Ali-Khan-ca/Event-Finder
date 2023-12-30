@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Madison Square Garden",
+        "location": "New York, NY"
+    },
+    {
+        "name": "Hollywood Bowl",
+        "location": "Los Angeles, CA"
+    },
+    {
+        "name": "Red Rocks Amphitheatre",
+        "location": "Morrison, CO"
+    },
+    {
+        "name": "Radio City Music Hall",
+        "location": "New York, NY"
+    },
+    {
+        "name": "The Forum",
+        "location": "Inglewood, CA"
+    },
+    {
+        "name": "Bridgestone Arena",
+        "location": "Nashville, TN"
+    },
+    {
+        "name": "United Center",
+        "location": "Chicago, IL"
+    },
+    {
+        "name": "Fenway Park",
+        "location": "Boston, MA"
+    },
+    {
+        "name": "Walt Disney Concert Hall",
+        "location": "Los Angeles, CA"
+    },
+    {
+        "name": "Ryman Auditorium",
+        "location": "Nashville, TN"
+    },
+    {
+        "name": "Webster Hall",
+        "location": "New York, NY"
+    }
+]

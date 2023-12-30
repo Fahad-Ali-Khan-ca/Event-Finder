@@ -4,23 +4,19 @@
 {% endblock %}
 
 {% block body %}
-<h1>Welcome to the Event Finder!</h1>
 <header>
     <h2>Search for Events</h2>
-    {% if error %}
-    <p class="error"><strong>Error:</strong> {{error}}</p>
-    {% endif %}
 </header>
+
 <main>
     <form action="/search" method="POST">
-        <input type="text" id="city" name="city" placeholder="Enter City">
-        <input type="date" placeholder="Enter Start Date" id="startdate" name="startdate">
-        <input type="date" placeholder="Enter End Date" id="enddate" name="enddate">
-        <input type="text" placeholder="Enter Artist Name" id="artist" name="artist">
+        <input class = "p-2 flex-fill" type="text" id="city" name="city" placeholder="Enter City">
+        <input class = "p-2 flex-fill" type="date" placeholder="Enter Start Date" id="startdate" name="startdate">
+        <input class = "p-2 flex-fill" type="date" placeholder="Enter End Date" id="enddate" name="enddate">
+        <input class = "p-2 flex-fill" git type="text" placeholder="Search by Artist, Event or Venue" id="keyword" name="keyword">
         <button>Search</button>
         
     </form>
-    
 </main>
 {% endblock %}
 

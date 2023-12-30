@@ -1,33 +1,24 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Search Results</title>
-</head>
-<body>
+{% extends 'base.html'%}
+{% block head %}
+<title> Search Results </title>
+{% endblock %}
+
+{% block body %}
     <h1>Event Results</h1>
     {% if events %}
         <ul>
             {% for event in events %}
                 <li>
                     <h2>{{ event['name'] }}</h2>
-                    <p>Date: {{ event['dates']['start']['localDate'] }} at {{ event['dates']['start']['localTime'] }} timezone: {{event['timezone']}}</p>
-                    <p>Venue: {{ event['_embedded']['venues'][0]['name'] if event['_embedded'] and event['_embedded']['venues'] else 'N/A' }}</p>
-                    <p> city: {{event['dates']}}</p>
-                    <img src="{{ event['images'][0]['url'] if event['images'] else 'https://via.placeholder.com/150' }}" alt="Event Image"> 
-                    {% if event.get('_embedded', {}).get('attractions') %}
-                        <p>Artists:</p>
-                        <ul>
-                            {% for artist in event['_embedded']['attractions'] %}
-                                <li>{{ artist['name'] }}</li>
-                            {% endfor %}
-                        </ul>
-                    {% endif %}
-                    <a href="{{ event['url'] }}">More Info</a>
+                    <p>Date: {{ event['start_date'] }} at {{ event['start_time']}} timezone: {{event['timezone']}}</p>
+                    <p>Venue: {{ event['venue'] }}</p>
+                    <p> city: {{ event['city'] }}</p>
+                    <img src="{{ event['image'] if event['image'] else 'https://via.placeholder.com/150' }}" alt="Event Image"> 
+                    <a href="{{ event['url'] }}" target ="_blank" >More Info</a>
                 </li>
             {% endfor %}
         </ul>
     {% else %}
         <p>No events found.</p>
     {% endif %}
-</body>
-</html>
+{% endblock %}

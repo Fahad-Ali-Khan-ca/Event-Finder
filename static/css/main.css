@@ -8,20 +8,4 @@ input[type="date"]:before {
     content: "";
   }
 
-body {
-    font-family:Arial;
-    color:#d99494;
- }
 
- button{
-	background: none;
-	outline : none;
-	background: #da2859;
-	padding: 10px 40px;
-	font-size: 17px;
-	color: white;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-	margin-bottom: 30px;
-}

@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Toronto",
+        "country": "Canada",
+        "province": "Ontario"
+    },
+    {
+        "name": "Montreal",
+        "country": "Canada",
+        "province": "Quebec"
+    },
+    {
+        "name": "Vancouver",
+        "country": "Canada",
+        "province": "British Columbia"
+    },
+    {
+        "name": "Calgary",
+        "country": "Canada",
+        "province": "Alberta"
+    },
+    {
+        "name": "Ottawa",
+        "country": "Canada",
+        "province": "Ontario"
+    },
+    {
+        "name": "Edmonton",
+        "country": "Canada",
+        "province": "Alberta"
+    },
+    {
+        "name": "Quebec City",
+        "country": "Canada",
+        "province": "Quebec"
+    },
+    {
+        "name": "Winnipeg",
+        "country": "Canada",
+        "province": "Manitoba"
+    },
+    {
+        "name": "Halifax",
+        "country": "Canada",
+        "province": "Nova Scotia"
+    },
+    {
+        "name": "Victoria",
+        "country": "Canada",
+        "province": "British Columbia"
+    },
+    {
+        "name": "New York City",
+        "country": "United States",
+        "state": "New York"
+    },
+    {
+        "name": "Los Angeles",
+        "country": "United States",
+        "state": "California"
+    },
+    {
+        "name": "Chicago",
+        "country": "United States",
+        "state": "Illinois"
+    },
+    {
+        "name": "San Francisco",
+        "country": "United States",
+        "state": "California"
+    },
+    {
+        "name": "Las Vegas",
+        "country": "United States",
+        "state": "Nevada"
+    },
+    {
+        "name": "Miami",
+        "country": "United States",
+        "state": "Florida"
+    },
+    {
+        "name": "Washington, D.C.",
+        "country": "United States",
+        "state": "D.C."
+    },
+    {
+        "name": "Boston",
+        "country": "United States",
+        "state": "Massachusetts"
+    },
+    {
+        "name": "Seattle",
+        "country": "United States",
+        "state": "Washington"
+    },
+    {
+        "name": "New Orleans",
+        "country": "United States",
+        "state": "Louisiana"
+    }
+]

@@ -1,0 +1,14 @@
+.dropdown-menu {
+  --bs-dropdown-bg: #bd1a1a; /* background color */
+  --bs-dropdown-border-color: #ddd; /* border color */
+  --bs-dropdown-border-radius: 0.25rem; /* border radius */
+  --bs-dropdown-color: #333; /* text color */
+  --bs-dropdown-link-color: #555; /* link color */
+  --bs-dropdown-link-hover-color: #333; /* link hover color */
+  --bs-dropdown-link-hover-bg: #f8f9fa; /* link hover background */
+}
+
+/* Example of changing the dropdown menu background on hover */
+.dropdown-menu:hover {
+  --bs-dropdown-bg: #f8f9fa;
+}
