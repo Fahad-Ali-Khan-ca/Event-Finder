@@ -1,14 +1,52 @@
-.dropdown-menu {
-  --bs-dropdown-bg: #bd1a1a; /* background color */
-  --bs-dropdown-border-color: #ddd; /* border color */
-  --bs-dropdown-border-radius: 0.25rem; /* border radius */
-  --bs-dropdown-color: #333; /* text color */
-  --bs-dropdown-link-color: #555; /* link color */
-  --bs-dropdown-link-hover-color: #333; /* link hover color */
-  --bs-dropdown-link-hover-bg: #f8f9fa; /* link hover background */
-}
+/* custom.css */
+.nav-item{
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: 500;
+  }
 
-/* Example of changing the dropdown menu background on hover */
-.dropdown-menu:hover {
-  --bs-dropdown-bg: #f8f9fa;
-}
+  .navbar {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  
+  .container-fluid {
+    padding: 0 !important;
+  }
+
+  .container.mt-5 {
+    padding: 10px;
+    margin: 0 auto; /* Center the search bar */
+    width: 90%; /* Adjust the width as needed */
+  }
+  
+
+  
+  .input-group .btn-danger {
+    border-radius: 30px; /* Rounded corners for the button */
+    color: #fff; /* Text color for the button */
+    background-color: #dd2855; /* Background color for the button */
+  }
+  
+  .input-group .btn-danger:hover {
+    background-color: #c41c4a;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  /* Apply rounded corners to the first input */
+  .input-group .form-control:first-child {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+  /* Adds a divider after each input except the last one */
+  .input-group .form-control:not(:last-child):after {
+    content: "";
+    position: absolute;
+    right: -1px; /* Adjust as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 50%; /* Adjust as needed */
+    background-color: #212020;
+  }
+

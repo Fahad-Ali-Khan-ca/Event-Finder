@@ -1,3 +1,4 @@
+/* main.css */
 input[type="date"]:before {
     content: attr(placeholder) !important;
     color: #aaa;
@@ -7,5 +8,19 @@ input[type="date"]:before {
   input[type="date"]:valid:before {
     content: "";
   }
+input::placeholder{
+    color: #aaa;
+    font-size: 16px;
+    font-weight: 500;
+}
 
+body {
+  background-color: #828282;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
 
