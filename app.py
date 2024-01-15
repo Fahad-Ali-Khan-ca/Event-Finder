@@ -3,7 +3,7 @@ import requests
 import json
 import os
 from flask import jsonify
-
+import cProfile
 app = Flask(__name__)
 app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
 api_key = 'vloAti78R5VU5xlEehviuY4dgV7MWIsj'  
@@ -29,7 +29,6 @@ def validate_form(startdate, enddate):
 def process_event_data(raw_event_data):
     if not raw_event_data:
         return None
-    #save the data in a file
     events = raw_event_data.get('_embedded', {}).get('events', [])
     processed_events = []
     for event in events:
@@ -64,6 +63,9 @@ def parse_data_json(file):
 def request_api(url):
     response = requests.get(url, allow_redirects=True)
     if response.status_code == 200:
+        #format and save the json in a file
+        with open('data.json', 'w') as outfile:
+            json.dump(response.json(), outfile)
         return process_event_data(response.json())
     else:
         return response.status_code
@@ -86,10 +88,11 @@ def index():
     # get top 10 events from ticketmaster
     url = f'https://app.ticketmaster.com/discovery/v2/events.json?apikey={api_key}'
     events = request_api(url)
-    if isinstance(events, list):
+    if isinstance(events, list):    
         return render_template('index.html', events=events, cities=cities, venues=venues, artists=artists)
     else:
         flash("Something is wrong with the Ticketmaster Api response code", events)  # Flashing an error message
+
 
 
 @app.route('/search', methods=['POST','GET'])
@@ -140,8 +143,8 @@ def Nav_city(name, id):
   
 
 if __name__ == '__main__':
-    # profiler = cProfile.Profile()
-    # profiler.enable()
+    profiler = cProfile.Profile()
+    profiler.enable()
     app.run(debug=True)
-    # profiler.disable()
-    # profiler.print_stats(sort='cumulative')
+    profiler.disable()
+    profiler.print_stats(sort='cumulative')
