@@ -1,0 +1,144 @@
+.carousel-wrap {
+  max-width: 90%;
+  margin: auto;
+  position: relative;
+}
+.owl-carousel .owl-nav {
+  overflow: visible;  /* Allows the navigation elements to be seen */
+  height: auto;       /* Adjusts the height automatically based on content */
+  /* Additional styling may be required for positioning and visibility */
+}
+
+
+.owl-theme .owl-dots .owl-dot.active span, 
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #161717;
+}
+
+
+.owl-carousel .item {
+    text-align: center;
+}
+.owl-carousel .nav-btn{
+    height: 47px;
+    position: absolute;
+    width: 26px;
+    cursor: pointer;
+    top: 100px ;
+}
+
+.owl-carousel .owl-prev, 
+.owl-carousel .owl-next {
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    color: #dd2855 !important; /* If you want the arrow icon color to be white */
+    font-size: 50px !important; /* Increase the size of the arrow icon */
+    border-radius: 50% !important; /* Optional: if you want to make the buttons round */
+}
+
+/* If using Font Awesome, ensure the icon inherits the color and size from the parent */
+.owl-carousel .owl-prev i, 
+.owl-carousel .owl-next i {
+    color: inherit !important;
+    font-size: inherit !important;
+}
+
+.owl-carousel .owl-prev {
+    left: -50px; /* Position to the left */
+}
+
+.owl-carousel .owl-next {
+    right: -50px; /* Position to the right */
+}
+
+.owl-carousel .prev-slide:hover{
+   background-position: 0px -53px;
+}
+.owl-carousel .next-slide:hover{
+  background-position: -24px -53px;
+}
+
+span.img-text {
+  text-decoration: none;
+  outline: none;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  cursor: pointer;
+  width: 100%;
+  font-size: 23px;
+  display: block;
+  text-transform: capitalize;
+}
+span.img-text:hover {
+  color: #2caae1;
+}
+@media (max-width: 760px) {
+
+  .owl-carousel .owl-prev {
+    left: -24px; /* Position to the left */ 
+}
+
+.owl-carousel .owl-next {
+    right: -24px; /* Position to the right */
+}
+
+.owl-carousel .owl-prev, 
+.owl-carousel .owl-next {
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    color: #dd2855 !important; /* If you want the arrow icon color to be white */
+    font-size: 24px !important; /* Increase the size of the arrow icon */
+    border-radius: 50% !important; /* Optional: if you want to make the buttons round */
+}
+
+/* If using Font Awesome, ensure the icon inherits the color and size from the parent */
+.owl-carousel .owl-prev i, 
+.owl-carousel .owl-next i {
+    color: inherit !important;
+    font-size: inherit !important;
+}
+}
+
+/* ==================== */
+
+.item.card {
+  border: 1px solid #ddd; /* Adds border */
+  border-radius: 10px; /* Rounds corners */
+  overflow: hidden; /* Ensures content fits within the rounded corners */
+  transition: border-color 1s, box-shadow 0.5s;
+
+}
+
+.item img {
+  width: 100%;
+  height: 200px; /* Fixed height for all images */
+  object-fit: cover; /* Cover the area without stretching */
+}
+
+
+.card-body {
+  padding: 15px; /* Adds spacing inside the card */
+}
+
+.card-title {
+  margin-bottom: 10px; /* Adds space below the title */
+}
+
+.btn-primary {
+  background-color: #dd2855; /* Your brand color */
+  border-color: #dd2855; /* Your brand color */
+}
+
+.btn-primary:hover {
+  background-color: #c41c4a; /* Darker shade for hover effect */
+  border-color: #c41c4a; /* Darker shade for hover effect */
+}
+
+.card:hover {
+  border-color: rgba(174, 181, 191, 0.7);
+  box-shadow: 0px 0px 10px 2px rgba(20, 20, 20, 0.6);
+}

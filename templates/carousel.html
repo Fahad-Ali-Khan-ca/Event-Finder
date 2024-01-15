@@ -1,3 +1,4 @@
+<!-- carousel.html -->
 <div id="carousal_Indicators" class="carousel slide">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carousal_Indicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -5,14 +6,22 @@
       <button type="button" data-bs-target="#carousal_Indicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="{{ url_for('static', filename='images/BANNERS-03.jpg') }}" class="d-block w-100" alt="...">
+      <div class="carousel-item active c-item">
+        <img src="{{ url_for('static', filename='images/BANNERS-03.jpg') }}" class="c-img" alt="...">
       </div>
-      <div class="carousel-item">
-        <img src="{{ url_for('static', filename='images/BANNERS-02.jpg') }}"class="d-block w-100" alt="...">
+      <div class="carousel-item c-item">
+        <img src="{{ url_for('static', filename='images/BANNERS-02.jpg') }}"class="c-img" alt="...">
       </div>
-      <div class="carousel-item">
-        <img src="{{ url_for('static', filename='images/BANNERS-05.jpg') }}"class="d-block w-100" alt="...">
+      <div class="carousel-item c-item">
+        <img src="{{ url_for('static', filename='images/BANNERS-04.jpg') }}"class="c-img" alt="...">
+        <div class="carousel-caption top-0 mt-4 d-none d-md-block " >
+          <address class="mt-4">
+           <h1>
+          A project by <a href="mailto:fkhan195@myseneca.ca"> Fahad Ali Khan</a>
+           </h1>  
+          </address>
+          
+        </div>
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carousal_Indicators" data-bs-slide="prev">
@@ -24,3 +33,4 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+  <!-- End carousal.html -->

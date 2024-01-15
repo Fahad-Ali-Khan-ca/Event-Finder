@@ -1,24 +1,52 @@
 {% extends 'base.html'%}
 {% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/results.css') }}">
 <title> Search Results </title>
 {% endblock %}
 
 {% block body %}
-    <h1>Event Results</h1>
+  <div class="flex-grow">
+    <h1 class="text-center text-danger display-1">EVENT RESULTS</h1>
     {% if events %}
-        <ul>
+        <div class="row mt-5 justify-content-center ">
             {% for event in events %}
-                <li>
-                    <h2>{{ event['name'] }}</h2>
-                    <p>Date: {{ event['start_date'] }} at {{ event['start_time']}} timezone: {{event['timezone']}}</p>
-                    <p>Venue: {{ event['venue'] }}</p>
-                    <p> city: {{ event['city'] }}</p>
-                    <img src="{{ event['image'] if event['image'] else 'https://via.placeholder.com/150' }}" alt="Event Image"> 
-                    <a href="{{ event['url'] }}" target ="_blank" >More Info</a>
-                </li>
+            <div class="card mb-5 me-5 ">
+                <img src="{{ event['image'] if event['image'] else 'https://via.placeholder.com/150' }}" class="card-img-top" alt="...">
+                <div class="card-body">
+                              <p class="card-header text-start">{{ event['name'] }}</p>  
+                              <p class="card-text">Date: {{ event['start_date'] }} </p>
+                                <!-- check for empty fields -->
+                                {% if event['start_time'] %}
+                                    <p class="card-text">Start time: {{ event['start_time']}} </p>
+                                {% endif %}
+                                {% if event['timezone'] %}
+                                    <p class="card-text">timezone: {{event['timezone']}}</p>
+                                {% endif %}
+                                {% if event['venue'] %}
+                                    <p class="card-text">Venue: {{event['venue']}} </p>
+                                {% endif %} 
+                                {% if event['city'] %}
+                                    <p class="card-text">Location: {{event['city']}}, {{event['country']}}</p>
+                                {% else %}
+                                    <p class="card-text">Location: TBD</p>
+                                {% endif %}
+                                {% if event['price'] %}
+                                    <p class="card-text">Price: {{event['price']}}</p>
+                                {% endif %}
+                                {% if event['url'] %}
+                                    <a href="{{ event['url'] }}" class="btn btn-primary" target="_blank">More Info</a>
+                                {% else %}
+                                    <a href="#" class="btn btn-primary disabled" aria-disabled="true">TBD</a>
+                                {% endif %}
+
+                            </div>
+              </div>
             {% endfor %}
-        </ul>
     {% else %}
-        <p>No events found.</p>
+        <p class="display-2 text-danger text-center mt-5 ">No events found.</p>
     {% endif %}
+        </div>
+  </div>
 {% endblock %}
+
+

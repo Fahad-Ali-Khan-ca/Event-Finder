@@ -1,3 +1,4 @@
+<!-- base.html -->
 <!doctype html>
 <html lang="en">
   <head>
@@ -13,9 +14,19 @@
     {% endblock %}
   </head>
 
-  
-  <body>
+  <body class="d-flex flex-column min-vh-100">
+    <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Include the Owl Carousel JavaScript file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- Include Font Awesome for icons (if you plan to use it for navigation buttons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />  
+    
+    <header>
         {% include 'navbar.html' %}
         <script>
             function redirectTo(name, id) {
@@ -25,16 +36,21 @@
             }
         </script>
         {% for message in get_flashed_messages()%}
-        <div class="alert alert-warning alert-dismissible fade show" role="alert">
-            <strong>{{message}}</strong> You should check in on some of those fields below.
+        <div class="alert alert-warning alert-dismissible fade show wb" role="alert">
+            <strong>{{message}}</strong>
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
           </div>    
         {% endfor %}
-        {% block body %}
-        {% endblock %}  
+      </header>
+    <!-- Main content block where child templates will inject content -->
+    <main class="flex-fill">
+      {% block body %}
+      {% endblock %}
+    </main>
+    <!-- footer -->
+    {% include 'footer.html' %}
   </body>
 </html>
     
-    
-    
-
+<!--End base.html -->
+ 

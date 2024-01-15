@@ -19,7 +19,6 @@ url = f'https://app.ticketmaster.com/discovery/v2/events.json?apikey={api_key}'
 # Ensure start date is before end date
 def validate_form(startdate, enddate):
     if startdate and enddate:
-        print(startdate)
         if startdate > enddate:
             return False
         else:
@@ -29,12 +28,15 @@ def validate_form(startdate, enddate):
         
 # Process raw event data
 def process_event_data(raw_event_data):
+    if not raw_event_data:
+        return None
+    #save the data in a file
     events = raw_event_data.get('_embedded', {}).get('events', [])
     processed_events = []
     for event in events:
         processed_event = {}
         processed_event['name'] = event.get('name', '#')
-        processed_event['url'] = event.get('url')
+        processed_event['url'] = event.get('url', '')
         processed_event['start_date'] = event.get('dates', {}).get('start', {}).get('localDate', '')
         processed_event['start_time'] = event.get('dates', {}).get('start', {}).get('localTime', '')
         processed_event['venue'] = event.get('_embedded', {}).get('venues', [{}])[0].get('name', '')
@@ -42,9 +44,9 @@ def process_event_data(raw_event_data):
         processed_event['state'] = event.get('_embedded', {}).get('venues', [{}])[0].get('state', {}).get('name', '')
         processed_event['postal_code'] = event.get('_embedded', {}).get('venues', [{}])[0].get('postalCode', '')
         processed_event['country'] = event.get('_embedded', {}).get('venues', [{}])[0].get('country', {}).get('name', '')
-        processed_event['timezone'] = event.get('_embedded', {}).get('venues', [{}])[0].get('timezone', '')
-        processed_event['keyword'] = event.get('_embedded', {}).get('attractions', [{}])[0].get('name', '')
-        processed_event['image'] = event.get('images', [{}])[0].get('url', '')
+        processed_event['timezone'] = event.get('_embedded', {}).get('venues', [{}])[0].get('timezone', 'TBD')
+        processed_event['keyword'] = event.get('_embedded', {}).get('attractions', [{}])[0].get('name', 'TBD')
+        processed_event['image'] = event.get('images', [{}])[0].get('url', 'TBD')
         if processed_event['url'] != None:
             processed_events.append(processed_event)
     return processed_events
@@ -61,12 +63,11 @@ def parse_data_json(file):
 
 #function for request to ticketmaster api
 def request_api(url):
-    response = requests.get(url)
+    response = requests.get(url, allow_redirects=True)
     if response.status_code == 200:
         return process_event_data(response.json())
     else:
-        print(f"API request failed with status code {response.status_code}: {response.text}")
-        return None
+        return response.status_code
 
 #========================================Global Data===============================================================
 cities = []
@@ -83,7 +84,13 @@ artists = parse_data_json('artists.json')
 # return home page with city list and venue list and artist list 
 @app.route('/')
 def index():
-    return render_template('index.html', cities=cities, venues=venues, artists=artists)
+    # get top 10 events from ticketmaster
+    url = f'https://app.ticketmaster.com/discovery/v2/events.json?apikey={api_key}'
+    events = request_api(url)
+    if isinstance(events, list):
+        return render_template('index.html', events=events, cities=cities, venues=venues, artists=artists)
+    else:
+        flash("Something is wrong with the Ticketmaster Api response code", events)  # Flashing an error message
 
 
 @app.route('/search', methods=['POST','GET'])
@@ -111,7 +118,7 @@ def search():
 
         # Request API
         events = request_api(url)
-        if events:
+        if isinstance(events, list):
             return render_template('results.html', events=events, cities=cities, venues=venues, artists=artists)
         else:
             flash("Error: something went wrong.", "error")
@@ -126,10 +133,11 @@ def Nav_city(name, id):
         else:  
             url += f'&city={name}'
         events = request_api(url)
-        if events:
+        if isinstance(events, list):
+            print(events)
             return render_template('results.html', events=events,cities=cities, venues=venues, artists=artists)
         else:
-            flash("Couldn't get data")  # Flashing an error message
+            flash("API request failed. Response code: {}".format(events))
             return redirect(url_for('index'))
   
 

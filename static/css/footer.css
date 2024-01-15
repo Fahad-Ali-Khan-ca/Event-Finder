@@ -1,0 +1,41 @@
+/* Base styles for footer and content */
+footer {
+    background-color: #272525;
+    color: #c8bebe;
+}
+
+.footer-logo {
+    height: 100px;
+    max-height: 100%;
+}
+
+.container {
+    color: #c8bebe;
+}
+
+
+
+#first_col{
+    width: 40%;
+}
+
+
+.footnote {
+    font-size: 0.8em;
+    color: #c8bebe;
+}
+
+/* Media query for larger screens */
+@media (min-width: 992px) {
+    /* Style for columns inside the footer */
+    .columns:not(:last-child) {
+        border-right: 1px solid #c8bebe;
+        margin: 0%;
+    }
+
+    .columns:not(:first-child) {
+        padding-left: 10px;
+
+    }
+
+}

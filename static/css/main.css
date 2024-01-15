@@ -15,12 +15,18 @@ input::placeholder{
 }
 
 body {
-  background-color: #828282;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #333;
   margin: 0;
   padding: 0;
+  padding-top: 60px; 
+
+}
+
+a {
+  color: #dd2855;
+  text-decoration: none;
+  transition: 0.2s;
 }
 

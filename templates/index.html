@@ -1,3 +1,4 @@
+<!-- Index.html -->
 {% extends 'base.html'%}
 {% block head %}
 <title> Event Finder</title>
@@ -7,18 +8,22 @@
 
 {% include 'carousel.html' %}
 
-<div class="container mt-5">
-    <div class="row justify-content-center">
-        <div class="col-lg-8">
-            <form action="/search" method="POST" class="input-group">
-                <input  class="form-control" type="text" id="city" name="city" placeholder="Enter City">
-                <input class = "form-control" type="date" placeholder="Enter Start Date" id="startdate" name="startdate">
-                <input class = "form-control " type="date" placeholder="Enter End Date" id="enddate" name="enddate">
-                <input class = "form-control" git type="text" placeholder="Search by Artist, Event or Venue" id="keyword" name="keyword">
-                <button type="submit" class="btn btn-danger px-4">Search</button>        
+<div id="searchbar" class="container-xxl text-center ">
+    <div class="row">
+            <form action="/search" method="POST" class="input-group" id="searchBarForm">
+                <input id="cityInput" class="form-control col" type="text" id="city" name="city" placeholder="Enter City">
+                <input class = "form-control col-6" type="date" placeholder="Enter Start Date" id="startdate" name="startdate">
+                <input class = "form-control col-6" type="date" placeholder="Enter End Date" id="enddate" name="enddate">
+                <input class = "form-control col-6" git type="text" placeholder="Search by Artist, Event or Venue" id="keyword" name="keyword">
+                <button type="submit" class="btn btn-danger">Search</button>        
             </form>
-        </div>
     </div>
 </div>
+<div class=" mb-5 text-danger">
+    <h1 class="display-4 font-weight-bold text-uppercase text-center">TOP EVENTS</h1>
+</div>
+{% include 'card_carousal.html' %}
+
 {% endblock %}
 
+<!-- End Index.html -->

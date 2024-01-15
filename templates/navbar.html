@@ -1,17 +1,22 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-0">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-0 fixed-top">
   <div class="container-fluid">
     <!-- Brand/logo -->
     <a class="navbar-brand" href="/">
-      <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo" style="height: 70px;">
+      <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo" class="navbar-logo">
     </a>
-    <!-- Toggler -->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+
+    <!-- Navbar Toggler -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <!-- dropdowns -->
-    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-      <ul class="navbar mx-auto">
-        <li class="nav-item dropdown">
+    <div class="collapse navbar-collapse ms-auto" id="navbarContent">
+      <ul class="navbar-nav mx-auto">
+        <li class = "nav-item me-3" id="nav-bar-first">
+          <a class="nav-link link-light" href="/">Home</a>
+        </li>
+        <li class="nav-item dropdown me-3">
           <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
             Cities
           </button>
@@ -22,7 +27,7 @@
           </ul>
         </li>
 
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown me-3">
           <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
             Venues
           </button>
@@ -33,7 +38,7 @@
           </ul>
         </li>      
         
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown me-3" id="nav-bar-last">
           <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
             Artists
           </button>
@@ -48,3 +53,5 @@
     </div>
   </div>
 </nav>
+
+

@@ -1,52 +1,90 @@
 /* custom.css */
-.nav-item{
-    margin-right: 40px;
-    font-size: 20px;
-    font-weight: 500;
-  }
-
-  .navbar {
-    margin-bottom: 0 !important;
-    padding-bottom: 0 !important;
-  }
-  
-  .container-fluid {
-    padding: 0 !important;
-  }
-
-  .container.mt-5 {
-    padding: 10px;
-    margin: 0 auto; /* Center the search bar */
-    width: 90%; /* Adjust the width as needed */
-  }
-  
-
-  
   .input-group .btn-danger {
-    border-radius: 30px; /* Rounded corners for the button */
+    border-radius: 50px; /* Rounded corners for the button */
     color: #fff; /* Text color for the button */
     background-color: #dd2855; /* Background color for the button */
+    width: 150px;
+    font-size: 35px;  
   }
   
   .input-group .btn-danger:hover {
     background-color: #c41c4a;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-  }
-  /* Apply rounded corners to the first input */
-  .input-group .form-control:first-child {
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-  }
-  /* Adds a divider after each input except the last one */
-  .input-group .form-control:not(:last-child):after {
-    content: "";
-    position: absolute;
-    right: -1px; /* Adjust as needed */
-    top: 50%;
-    transform: translateY(-50%);
-    width: 1px;
-    height: 50%; /* Adjust as needed */
-    background-color: #212020;
   }
 
+ #searchbar {
+    padding: 50px 0;
+   
+  }
+
+  #cityInput {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+
+  #searchBarForm{
+    margin: 0 auto;
+    height: 100px;
+  }
+
+
+.nav-item{
+  height: auto;
+  padding-right: 200px;
+}
+
+.navbar{
+  padding: 0;
+  height: auto;
+}
+
+.navbar-logo{
+  height: 50px;
+  padding-left: 50px;
+  max-height: 100%;
+}
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .nav-item {
+    padding-right: 0;
+  }
+
+  /* This will apply to all dropdown menus within the navbar */
+  .navbar .dropdown-menu {
+  position: absolute;
+  z-index: 1020; /* This should be higher than the z-index of elements below the navbar */
+  top: 100%; /* Align the top edge of the dropdown with the bottom edge of the navbar */
+  left: 0; /* Align to the left side of the parent dropdown */
+  /* You might need to adjust the left value if you want the dropdown to align differently */
+  }
+  /* Ensure the parent element has the correct positioning context */
+  .navbar .nav-item.dropdown {
+    position: relative; /* This is usually the default */
+  }
+
+}
+
+
+/* ==================================================Carousal CSS============================= */
+
+.c-item{
+  height: 700px;
+}
+
+.c-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousal_Indicators{
+  padding-top: 60px;
+  width: 100%;
+}
