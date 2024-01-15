@@ -3,7 +3,6 @@ import requests
 import json
 import os
 from flask import jsonify
-import cProfile
 
 app = Flask(__name__)
 app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
@@ -134,7 +133,6 @@ def Nav_city(name, id):
             url += f'&city={name}'
         events = request_api(url)
         if isinstance(events, list):
-            print(events)
             return render_template('results.html', events=events,cities=cities, venues=venues, artists=artists)
         else:
             flash("API request failed. Response code: {}".format(events))
@@ -142,8 +140,8 @@ def Nav_city(name, id):
   
 
 if __name__ == '__main__':
-    profiler = cProfile.Profile()
-    profiler.enable()
+    # profiler = cProfile.Profile()
+    # profiler.enable()
     app.run(debug=True)
-    profiler.disable()
-    profiler.print_stats(sort='cumulative')
+    # profiler.disable()
+    # profiler.print_stats(sort='cumulative')
