@@ -1,52 +1,54 @@
 {% extends 'base.html'%}
 {% block head %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/results.css') }}">
+<!--  custom script for setting up the modal -->
+<script src="{{ url_for('static', filename='js/modal-setup.js') }}"></script>
+
 <title> Search Results </title>
 {% endblock %}
 
 {% block body %}
-  <div class="flex-grow">
+<div class="flex-grow">
     <h1 class="text-center text-danger display-1">EVENT RESULTS</h1>
     {% if events %}
-        <div class="row mt-5 justify-content-center ">
-            {% for event in events %}
-            <div class="card mb-5 me-5 ">
-                <img src="{{ event['image'] if event['image'] else 'https://via.placeholder.com/150' }}" class="card-img-top" alt="...">
-                <div class="card-body">
-                              <p class="card-header text-start">{{ event['name'] }}</p>  
-                              <p class="card-text">Date: {{ event['start_date'] }} </p>
-                                <!-- check for empty fields -->
-                                {% if event['start_time'] %}
-                                    <p class="card-text">Start time: {{ event['start_time']}} </p>
-                                {% endif %}
-                                {% if event['timezone'] %}
-                                    <p class="card-text">timezone: {{event['timezone']}}</p>
-                                {% endif %}
-                                {% if event['venue'] %}
-                                    <p class="card-text">Venue: {{event['venue']}} </p>
-                                {% endif %} 
-                                {% if event['city'] %}
-                                    <p class="card-text">Location: {{event['city']}}, {{event['country']}}</p>
-                                {% else %}
-                                    <p class="card-text">Location: TBD</p>
-                                {% endif %}
-                                {% if event['price'] %}
-                                    <p class="card-text">Price: {{event['price']}}</p>
-                                {% endif %}
-                                {% if event['url'] %}
-                                    <a href="{{ event['url'] }}" class="btn btn-primary" target="_blank">More Info</a>
-                                {% else %}
-                                    <a href="#" class="btn btn-primary disabled" aria-disabled="true">TBD</a>
-                                {% endif %}
+    <div class="row mt-5 justify-content-center event-row">
+        {% for event in events %}
+        <div class="card mb-5 me-5 ">
+            <img src="{{ event['image'] if event['image'] else 'https://via.placeholder.com/150' }}"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-header text-start">{{ event['name'] }}</p>
+                <p class="card-text">Date: {{ event['start_date'] }} </p>
+                <!-- check for empty fields -->
+                {% if event['start_time'] %}
+                <p class="card-text">Start time: {{ event['start_time']}} </p>
+                {% endif %}
+                {% if event['timezone'] %}
+                <p class="card-text">timezone: {{event['timezone']}}</p>
+                {% endif %}
+                {% if event['venue'] %}
+                <p class="card-text">Venue: {{event['venue']}} </p>
+                {% endif %}
+                {% if event['city'] %}
+                <p class="card-text">Location: {{event['city']}}, {{event['country']}}</p>
+                {% else %}
+                <p class="card-text">Location: TBD</p>
+                {% endif %}
+                {% if event['url'] %}
+                <!-- More Info button -->
+                <a href="javascript:void(0);" class="btn btn-primary" data-event-id="{{ event['id'] }}">More Info</a>
+                {% else %}
+                <a href="#" class="btn btn-primary disabled" aria-disabled="true">Ofsale</a>
+                {% endif %}
 
-                            </div>
-              </div>
-            {% endfor %}
-    {% else %}
-        <p class="display-2 text-danger text-center mt-5 ">No events found.</p>
-    {% endif %}
+            </div>
         </div>
-  </div>
+        {% endfor %}
+        {% else %}
+        <p class="display-2 text-danger text-center mt-5 ">No events found.</p>
+        {% endif %}
+    </div>
+</div>
+<!-- Modal -->
+{% include 'modal.html' %}
 {% endblock %}
-
-

@@ -1,1 +1,546 @@
-{"name": "Bad Bunny - Most Wanted Tour", "type": "event", "id": "G5v0Z9g12mopp", "test": false, "url": "https://www.ticketmaster.com/bad-bunny-most-wanted-tour-phoenix-arizona-02-27-2024/event/19005F528FB91596", "locale": "en-us", "images": [{"ratio": "16_9", "url": "https://s1.ticketm.net/dam/a/015/612e515b-30ff-4272-847a-83ed8295d015_EVENT_DETAIL_PAGE_16_9.jpg", "width": 205, "height": 115, "fallback": false}, {"ratio": "3_2", "url": "https://s1.ticketm.net/dam/a/015/612e515b-30ff-4272-847a-83ed8295d015_TABLET_LANDSCAPE_3_2.jpg", "width": 1024, "height": 683, "fallback": false}, {"ratio": "16_9", "url": "https://s1.ticketm.net/dam/a/015/612e515b-30ff-4272-847a-83ed8295d015_TABLET_LANDSCAPE_16_9.jpg", "width": 1024, "height": 576, "fallback": false}, {"ratio": "16_9", "url": "https://s1.ticketm.net/dam/a/015/612e515b-30ff-4272-847a-83ed8295d015_RETINA_LANDSCAPE_16_9.jpg", "width": 1136, "height": 639, "fallback": false}, {"ratio": "16_9", "url": "https://s1.ticketm.net/dam/a/015/612e515b-30ff-4272-847a-83ed8295d015_SOURCE", "width": 2426, "height": 1365, "fallback": false}, {"ratio": "16_9", "url": "https://s1.ticketm.net/dam/a/015/612e515b-30ff-4272-847a-83ed8295d015_RETINA_PORTRAIT_16_9.jpg", "width": 640, "height": 360, "fallback": false}, {"ratio": "4_3", "url": "https://s1.ticketm.net/dam/a/015/612e515b-30ff-4272-847a-83ed8295d015_CUSTOM.jpg", "width": 305, "height": 225, "fallback": false}, {"ratio": "3_2", "url": "https://s1.ticketm.net/dam/a/015/612e515b-30ff-4272-847a-83ed8295d015_ARTIST_PAGE_3_2.jpg", "width": 305, "height": 203, "fallback": false}, {"ratio": "3_2", "url": "https://s1.ticketm.net/dam/a/015/612e515b-30ff-4272-847a-83ed8295d015_RETINA_PORTRAIT_3_2.jpg", "width": 640, "height": 427, "fallback": false}, {"ratio": "16_9", "url": "https://s1.ticketm.net/dam/a/015/612e515b-30ff-4272-847a-83ed8295d015_RECOMENDATION_16_9.jpg", "width": 100, "height": 56, "fallback": false}, {"ratio": "16_9", "url": "https://s1.ticketm.net/dam/a/015/612e515b-30ff-4272-847a-83ed8295d015_TABLET_LANDSCAPE_LARGE_16_9.jpg", "width": 2048, "height": 1152, "fallback": false}], "sales": {"public": {"startTBD": false, "startTBA": false}, "presales": [{"startDateTime": "2023-10-25T18:00:00Z", "endDateTime": "2023-10-27T06:59:00Z", "name": "General Registration"}, {"startDateTime": "2023-10-25T18:00:00Z", "endDateTime": "2023-10-27T06:59:00Z", "name": "General Registration Aisle Seats"}, {"startDateTime": "2023-10-25T18:00:00Z", "endDateTime": "2023-10-27T06:59:00Z", "name": "General Registration VIP Packages"}]}, "dates": {"start": {"localDate": "2024-02-27", "localTime": "20:00:00", "dateTime": "2024-02-28T03:00:00Z", "dateTBD": false, "dateTBA": false, "timeTBA": false, "noSpecificTime": false}, "timezone": "America/Phoenix", "status": {"code": "onsale"}, "spanMultipleDays": false}, "classifications": [{"primary": true, "segment": {"id": "KZFzniwnSyZfZ7v7nJ", "name": "Music"}, "genre": {"id": "KnvZfZ7vAv1", "name": "Hip-Hop/Rap"}, "subGenre": {"id": "KZazBEonSMnZfZ7vaa1", "name": "French Rap"}, "type": {"id": "KZAyXgnZfZ7v7nI", "name": "Undefined"}, "subType": {"id": "KZFzBErXgnZfZ7v7lJ", "name": "Undefined"}, "family": false}], "promoter": {"id": "653", "name": "LIVE NATION MUSIC", "description": "LIVE NATION MUSIC / NTL / USA"}, "promoters": [{"id": "653", "name": "LIVE NATION MUSIC", "description": "LIVE NATION MUSIC / NTL / USA"}], "info": "ALL GUESTS MUST HAVE A TICKET; NO EXCEPTIONS. Footprint Center is now a cashless environment. Please plan on using Visa, Mastercard, American Express or Discover during your visit. Don't have a credit/debit card? Convert cash into a preloaded Mastercard by visiting one of our reverse ATMs located near the Ticket Office or Section 218! When you purchase a ticket to a Footprint Center event, you can ride the Valley Metro Light Rail at no cost for four (4) hours prior to the event through the end of the transit day. With an increased focus on secure, contactless entry, mobile tickets will be required. All tickets will be delivered electronically with no exceptions, therefore will call is no longer available. All tickets are available via the Ticketmaster app or the Suns-Mercury-Footprint Center app.", "pleaseNote": "ALL GUESTS MUST HAVE A TICKET; NO EXCEPTIONS. When you purchase a ticket to a Footprint Center event, you can ride the Valley Metro Light Rail at no cost for four (4) hours prior to the event through the end of the transit day. With an increased focus on secure, contactless entry, mobile tickets will be required. All tickets will be delivered electronically with no exceptions, therefore will call is no longer available. All tickets are available via the Ticketmaster app or the Suns-Mercury-Footprint Center app. Stage Depiction Notice The Nadie and Sabe sections are exactly the same. Both are general admission, standing room only areas that are of equal size and have the same proximity to the tour's custom-built 360 degree staging.", "priceRanges": [{"type": "standard", "currency": "USD", "min": 101.95, "max": 880.95}], "products": [{"name": "PARKWHIZ FOOTPRINT CENTER", "id": "G5v0Z9g-yIOD2", "url": "https://www.ticketmaster.com/parkwhiz-footprint-center-phoenix-arizona-02-27-2024/event/19005F5879A20ECF", "type": "Upsell", "classifications": [{"primary": true, "segment": {"id": "KZFzniwnSyZfZ7v7n1", "name": "Miscellaneous"}, "genre": {"id": "KnvZfZ7v7ll", "name": "Undefined"}, "subGenre": {"id": "KZazBEonSMnZfZ7vAv1", "name": "Undefined"}, "type": {"id": "KZAyXgnZfZ7vAva", "name": "Parking"}, "subType": {"id": "KZFzBErXgnZfZ7vAFe", "name": "Regular"}, "family": false}]}, {"name": "Footprint Center/Car Service: BAD BUNNY", "id": "G5v0Z9grjPsKM", "url": "https://www.ticketmaster.com/footprint-centercar-service-bad-bunny-phoenix-arizona-02-27-2024/event/19005F579C9714F7", "type": "Upsell", "classifications": [{"primary": true, "segment": {"id": "KZFzniwnSyZfZ7v7n1", "name": "Miscellaneous"}, "genre": {"id": "KnvZfZ7v7ll", "name": "Undefined"}, "subGenre": {"id": "KZazBEonSMnZfZ7vAv1", "name": "Undefined"}, "type": {"id": "KZAyXgnZfZ7v7nn", "name": "Transportation"}, "subType": {"id": "KZFzBErXgnZfZ7v7lt", "name": "Transportation"}, "family": false}]}], "seatmap": {"staticUrl": "https://maps.ticketmaster.com/maps/geometry/3/event/19005F528FB91596/staticImage?type=png&systemId=HOST"}, "accessibility": {"ticketLimit": 8}, "ticketLimit": {"info": "There is a limit of six (6) tickets to this event."}, "ageRestrictions": {"legalAgeEnforced": false}, "doorsTimes": {"localDate": "2024-02-27", "localTime": "19:00:00", "dateTime": "2024-02-28T02:00:00Z"}, "ticketing": {"safeTix": {"enabled": true}, "allInclusivePricing": {"enabled": false}}, "_links": {"self": {"href": "/discovery/v2/events/G5v0Z9g12mopp?locale=en-us"}, "attractions": [{"href": "/discovery/v2/attractions/K8vZ9174l1f?locale=en-us"}], "venues": [{"href": "/discovery/v2/venues/KovZpZAE617A?locale=en-us"}]}, "_embedded": {"venues": [{"name": "Footprint Center", "type": "venue", "id": "KovZpZAE617A", "test": false, "url": "https://www.ticketmaster.com/footprint-center-tickets-phoenix/venue/205079", "locale": "en-us", "images": [{"ratio": "16_9", "url": "https://s1.ticketm.net/dbimages/22218v.jpg", "width": 205, "height": 115, "fallback": false}], "postalCode": "85004", "timezone": "America/Phoenix", "city": {"name": "Phoenix"}, "state": {"name": "Arizona", "stateCode": "AZ"}, "country": {"name": "United States Of America", "countryCode": "US"}, "address": {"line1": "201 East Jefferson Street"}, "location": {"longitude": "-112.071313", "latitude": "33.445899"}, "markets": [{"name": "Phoenix and Tucson", "id": "36"}], "dmas": [{"id": 359}, {"id": 402}, {"id": 420}], "boxOfficeInfo": {"phoneNumberDetail": "Northwest side of Footprint Center in the Pavilion.(602)379-7800 Suns Game Nights call (602)379-7867", "openHoursDetail": "The Footprint Center ticket office will be open at 3pm on weekday events and three (3) hours prior to event time for weekends. For any further questions or ticket inquiries, please reach out to feedback@suns.com or call the Footprint Center ticket office at (602) 379-7800.", "acceptedPaymentDetail": "The Footprint Center accepts the following methods of payment at the Box Office:VISA MASTERCARD DISCOVER AMERICAN EXPRESS CASH, PHX ARENA NO LONGER ACCEPTS CHECKS", "willCallDetail": "The WILL CALL windows open two hours prior to events and are located on the Northwest side of the building in the Pavilion. WILL CALL PICK-UP: The Footprint Center requires that customers picking up WILL CALL tickets furnish the following: 1) PICTURE IDENTIFICATION THAT MATCHES THE PICK-UP NAME 2) CONFIRMATION NUMBER THAT MATCHES THE CUSTOMER ACCOUNT ALTERNATE WILL CALL PICK-UP: If another person, other than the person ordering and paying for the tickets, is picking up a WILL CALL order, the ALTERNATE PICK-UP name MUST be on the account. To get the alternate pick-up name noted on the account, the original purchaser MUST contact Ticketmaster at (1-800-745-3000), ask for customer service to verify account information and request alternate pick-up."}, "parkingDetail": "Adjacent parking structure at 1st and Madison. Many other parking lots and structures within a 10 minute walk of Footprint Center. Prices vary by event. Parking and Direction hotline (602)514-8472", "accessibleSeatingDetail": "PHOENIX SUNS: To purchase Phoenix Suns tickets for people with disabilities, subject to availability, please call Footprint Center at (602)379-7867 or visit Footprint Center ticket office. Accessible tickets can also be purchased at all Ticketmaster locations, by calling (800)745-3000 or online at ticketmaster.com. ARIZONA RATTLERS: To purchase Arizona Rattlers tickets for people with disabilities, Subject to availability, please call Footprint Center at (602)379-7800 or visit the Footprint Center ticket office. Accessible tickets can also be purchased at all Ticketmaster locations, by calling (800)745-3000 or online at ticketmaster.com. PHOENIX MERCURY: To purchase Phoenix Mercury tickets for people with disabilities, subject to availability, please call Footprint Center at (602)252-9622 or visit the Footprint Center ticket office. Accessible tickets can also be purchased at all Ticketmaster locations, by calling (800)745-3000 or online at ticketmaster.com. ARENA CONCERTS AND OTHER EVENTS: To purchase concert or other event tickets for people with disabilities, subject to availability, please call Footprint Center at (602)379-7800 or visit Footprint Center ticket office. Accessible tickets can also be purchased at all Ticketmaster locations, by calling (800)745-3000 or online at ticketmaster.com.", "generalInfo": {"generalRule": "New security procedures have been implemented at Footprint Center. No backpacks or large purses will be allowed. Small purses and fanny packs will be subject to search. Every individual entering the arena will be subject to search. Every vehicle entering the building will be subject to search. Sealed water bottles (1 litre or smaller) allowed in building. No other outside concessions allowed. No pets other than \"assisting\" animals. Smoking in Facility: Footprint Center is a non-smoking facility. Smoking areas outside building are available, depending on event. NON professional cameras only (depending on event) No Laser Pointers allowed No Video Cameras allowed No Recorders allowed", "childRule": "Please contact the Footprint Center ticket office at (602)379-7800, for information. Child policy Varies by event. Children age three (3) and above require a ticket for Phoenix Suns, Phoenix Mercury, and Arizona Rattlers games."}, "upcomingEvents": {"ticketmaster": 68, "_total": 68, "_filtered": 0}, "_links": {"self": {"href": "/discovery/v2/venues/KovZpZAE617A?locale=en-us"}}}], "attractions": [{"name": "Bad Bunny", "type": "attraction", "id": "K8vZ9174l1f", "test": false, "url": "https://www.ticketmaster.com.au/bad-bunny-tickets/artist/2317395", "locale": "en-us", "externalLinks": {"youtube": [{"url": "https://www.youtube.com/channel/UCmBA_wu8xGg1OfOkfW13Q0Q"}], "twitter": [{"url": "https://twitter.com/sanbenito"}], "itunes": [{"url": "https://itunes.apple.com/us/artist/id1126808565"}], "lastfm": [{"url": "https://www.last.fm/music/Bad+Bunny"}], "facebook": [{"url": "https://www.facebook.com/BadBunnyOfficial"}], "spotify": [{"url": "https://open.spotify.com/artist/4q3ewBCX7sLwd24euuV69X"}], "wiki": [{"url": "https://en.wikipedia.org/wiki/Bad_Bunny"}], "instagram": [{"url": "https://www.instagram.com/badbunnypr/"}], "musicbrainz": [{"id": "89aa5ecb-59ad-46f5-b3eb-2d424e941f19"}]}, "images": [{"ratio": "16_9", "url": "https://s1.ticketm.net/dam/a/015/612e515b-30ff-4272-847a-83ed8295d015_EVENT_DETAIL_PAGE_16_9.jpg", "width": 205, "height": 115, "fallback": false}, {"ratio": "3_2", "url": "https://s1.ticketm.net/dam/a/015/612e515b-30ff-4272-847a-83ed8295d015_TABLET_LANDSCAPE_3_2.jpg", "width": 1024, "height": 683, "fallback": false}, {"ratio": "16_9", "url": "https://s1.ticketm.net/dam/a/015/612e515b-30ff-4272-847a-83ed8295d015_TABLET_LANDSCAPE_16_9.jpg", "width": 1024, "height": 576, "fallback": false}, {"ratio": "16_9", "url": "https://s1.ticketm.net/dam/a/015/612e515b-30ff-4272-847a-83ed8295d015_RETINA_LANDSCAPE_16_9.jpg", "width": 1136, "height": 639, "fallback": false}, {"ratio": "16_9", "url": "https://s1.ticketm.net/dam/a/015/612e515b-30ff-4272-847a-83ed8295d015_SOURCE", "width": 2426, "height": 1365, "fallback": false}, {"ratio": "16_9", "url": "https://s1.ticketm.net/dam/a/015/612e515b-30ff-4272-847a-83ed8295d015_RETINA_PORTRAIT_16_9.jpg", "width": 640, "height": 360, "fallback": false}, {"ratio": "4_3", "url": "https://s1.ticketm.net/dam/a/015/612e515b-30ff-4272-847a-83ed8295d015_CUSTOM.jpg", "width": 305, "height": 225, "fallback": false}, {"ratio": "3_2", "url": "https://s1.ticketm.net/dam/a/015/612e515b-30ff-4272-847a-83ed8295d015_ARTIST_PAGE_3_2.jpg", "width": 305, "height": 203, "fallback": false}, {"ratio": "3_2", "url": "https://s1.ticketm.net/dam/a/015/612e515b-30ff-4272-847a-83ed8295d015_RETINA_PORTRAIT_3_2.jpg", "width": 640, "height": 427, "fallback": false}, {"ratio": "16_9", "url": "https://s1.ticketm.net/dam/a/015/612e515b-30ff-4272-847a-83ed8295d015_RECOMENDATION_16_9.jpg", "width": 100, "height": 56, "fallback": false}, {"ratio": "16_9", "url": "https://s1.ticketm.net/dam/a/015/612e515b-30ff-4272-847a-83ed8295d015_TABLET_LANDSCAPE_LARGE_16_9.jpg", "width": 2048, "height": 1152, "fallback": false}], "classifications": [{"primary": true, "segment": {"id": "KZFzniwnSyZfZ7v7nJ", "name": "Music"}, "genre": {"id": "KnvZfZ7vAv1", "name": "Hip-Hop/Rap"}, "subGenre": {"id": "KZazBEonSMnZfZ7vke1", "name": "Latin Hip-Hop"}, "type": {"id": "KZAyXgnZfZ7v7la", "name": "Individual"}, "subType": {"id": "KZFzBErXgnZfZ7vAd7", "name": "Musician"}, "family": false}], "upcomingEvents": {"tmr": 5, "ticketmaster": 48, "_total": 53, "_filtered": 0}, "_links": {"self": {"href": "/discovery/v2/attractions/K8vZ9174l1f?locale=en-us"}}}]}}
+{
+  "_embedded": {
+    "attractions": [
+      {
+        "_links": {
+          "self": {
+            "href": "/discovery/v2/attractions/K8vZ9171tJV?locale=en-us"
+          }
+        },
+        "classifications": [
+          {
+            "family": false,
+            "genre": {
+              "id": "KnvZfZ7vA7d",
+              "name": "Martial Arts"
+            },
+            "primary": true,
+            "segment": {
+              "id": "KZFzniwnSyZfZ7v7nE",
+              "name": "Sports"
+            },
+            "subGenre": {
+              "id": "KZazBEonSMnZfZ7vFIE",
+              "name": "Mixed Martial Arts"
+            },
+            "subType": {
+              "id": "KZFzBErXgnZfZ7v7lJ",
+              "name": "Undefined"
+            },
+            "type": {
+              "id": "KZAyXgnZfZ7v7nI",
+              "name": "Undefined"
+            }
+          }
+        ],
+        "id": "K8vZ9171tJV",
+        "images": [
+          {
+            "fallback": false,
+            "height": 639,
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/138/09f8507b-e5bd-400f-8363-8c3b83e82138_RETINA_LANDSCAPE_16_9.jpg",
+            "width": 1136
+          },
+          {
+            "fallback": false,
+            "height": 115,
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/138/09f8507b-e5bd-400f-8363-8c3b83e82138_EVENT_DETAIL_PAGE_16_9.jpg",
+            "width": 205
+          },
+          {
+            "fallback": false,
+            "height": 1365,
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/138/09f8507b-e5bd-400f-8363-8c3b83e82138_SOURCE",
+            "width": 2426
+          },
+          {
+            "fallback": false,
+            "height": 576,
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/138/09f8507b-e5bd-400f-8363-8c3b83e82138_TABLET_LANDSCAPE_16_9.jpg",
+            "width": 1024
+          },
+          {
+            "fallback": false,
+            "height": 203,
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/138/09f8507b-e5bd-400f-8363-8c3b83e82138_ARTIST_PAGE_3_2.jpg",
+            "width": 305
+          },
+          {
+            "fallback": false,
+            "height": 683,
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/138/09f8507b-e5bd-400f-8363-8c3b83e82138_TABLET_LANDSCAPE_3_2.jpg",
+            "width": 1024
+          },
+          {
+            "fallback": false,
+            "height": 427,
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/138/09f8507b-e5bd-400f-8363-8c3b83e82138_RETINA_PORTRAIT_3_2.jpg",
+            "width": 640
+          },
+          {
+            "fallback": false,
+            "height": 360,
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/138/09f8507b-e5bd-400f-8363-8c3b83e82138_RETINA_PORTRAIT_16_9.jpg",
+            "width": 640
+          },
+          {
+            "fallback": false,
+            "height": 1152,
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/138/09f8507b-e5bd-400f-8363-8c3b83e82138_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "width": 2048
+          },
+          {
+            "fallback": false,
+            "height": 56,
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/138/09f8507b-e5bd-400f-8363-8c3b83e82138_RECOMENDATION_16_9.jpg",
+            "width": 100
+          },
+          {
+            "fallback": false,
+            "height": 225,
+            "ratio": "4_3",
+            "url": "https://s1.ticketm.net/dam/a/138/09f8507b-e5bd-400f-8363-8c3b83e82138_CUSTOM.jpg",
+            "width": 305
+          }
+        ],
+        "locale": "en-us",
+        "name": "Ultimate Fighting Championship - UFC",
+        "test": false,
+        "type": "attraction",
+        "upcomingEvents": {
+          "_filtered": 0,
+          "_total": 4,
+          "ticketmaster": 4
+        },
+        "url": "https://www.ticketmaster.com.au/ultimate-fighting-championship-ufc-tickets/artist/806762"
+      }
+    ],
+    "venues": [
+      {
+        "_links": {
+          "self": {
+            "href": "/discovery/v2/venues/KovZpZAJtFaA?locale=en-us"
+          }
+        },
+        "accessibleSeatingDetail": "This is an accessible venue.",
+        "address": {
+          "line1": "601 Biscayne Blvd"
+        },
+        "aliases": [
+          "americanairlines arena",
+          "american airlines arena"
+        ],
+        "boxOfficeInfo": {
+          "acceptedPaymentDetail": "Visa, MasterCard, Discover, American Express",
+          "openHoursDetail": "Kaseya Center will only be open on event days. Arena Box Office Information (786) 777-1250",
+          "phoneNumberDetail": "Miami HEAT & Arena Event Sales Information: \u2022 Miami HEAT Season Tickets & Partial Plans (786) 777 HOOP \u2022 Miami HEAT Group Tickets (786) 777 DUNK \u2022 Miami HEAT Premium Seats (Courtside/Flagship/Suites/Loges) (786) 777 4320 \u2022 Arena Event Suite Sales (786) 777 1000 \u2022 Group Ticket & Fundraising Opportunities for Arena Family Shows (786) 777 4FUN (4386)",
+          "willCallDetail": "Will Call is located at the Ticketmaster Box Office on the North Side of the Arena located between Gates 3 & 4. Valid ID required to pick up Will Call Tickets"
+        },
+        "city": {
+          "name": "Miami"
+        },
+        "country": {
+          "countryCode": "US",
+          "name": "United States Of America"
+        },
+        "dmas": [
+          {
+            "id": 200
+          },
+          {
+            "id": 334
+          },
+          {
+            "id": 412
+          }
+        ],
+        "generalInfo": {
+          "generalRule": "For all you need to know from A-Z, please log on to: www.kaseyacenter.com"
+        },
+        "id": "KovZpZAJtFaA",
+        "locale": "en-us",
+        "location": {
+          "latitude": "25.781232",
+          "longitude": "-80.187805"
+        },
+        "markets": [
+          {
+            "id": "15",
+            "name": "Miami"
+          },
+          {
+            "id": "51",
+            "name": "All of US"
+          }
+        ],
+        "name": "Kaseya Center",
+        "parkingDetail": "Suggested Parking Information: http://d2yex7fc50u2fe.cloudfront.net/pdfs/ Event_parking_options.pdf",
+        "postalCode": "33132",
+        "social": {
+          "twitter": {
+            "handle": "@AAarena"
+          }
+        },
+        "state": {
+          "name": "Florida",
+          "stateCode": "FL"
+        },
+        "test": false,
+        "timezone": "America/New_York",
+        "type": "venue",
+        "upcomingEvents": {
+          "_filtered": 0,
+          "_total": 48,
+          "ticketmaster": 48
+        },
+        "url": "https://www.ticketmaster.com/kaseya-center-tickets-miami/venue/106601"
+      }
+    ]
+  },
+  "_links": {
+    "attractions": [
+      {
+        "href": "/discovery/v2/attractions/K8vZ9171tJV?locale=en-us"
+      }
+    ],
+    "self": {
+      "href": "/discovery/v2/events/vvG1VZ9ypQkobZ?locale=en-us"
+    },
+    "venues": [
+      {
+        "href": "/discovery/v2/venues/KovZpZAJtFaA?locale=en-us"
+      }
+    ]
+  },
+  "accessibility": {
+    "ticketLimit": 4
+  },
+  "ageRestrictions": {
+    "legalAgeEnforced": false
+  },
+  "classifications": [
+    {
+      "family": false,
+      "genre": {
+        "id": "KnvZfZ7vA7d",
+        "name": "Martial Arts"
+      },
+      "primary": true,
+      "segment": {
+        "id": "KZFzniwnSyZfZ7v7nE",
+        "name": "Sports"
+      },
+      "subGenre": {
+        "id": "KZazBEonSMnZfZ7vFIE",
+        "name": "Mixed Martial Arts"
+      },
+      "subType": {
+        "id": "KZFzBErXgnZfZ7v7lJ",
+        "name": "Undefined"
+      },
+      "type": {
+        "id": "KZAyXgnZfZ7v7nI",
+        "name": "Undefined"
+      }
+    }
+  ],
+  "dates": {
+    "spanMultipleDays": false,
+    "start": {
+      "dateTBA": false,
+      "dateTBD": false,
+      "dateTime": "2024-03-10T00:15:00Z",
+      "localDate": "2024-03-09",
+      "localTime": "19:15:00",
+      "noSpecificTime": false,
+      "timeTBA": false
+    },
+    "status": {
+      "code": "onsale"
+    },
+    "timezone": "America/New_York"
+  },
+  "id": "vvG1VZ9ypQkobZ",
+  "images": [
+    {
+      "fallback": false,
+      "height": 639,
+      "ratio": "16_9",
+      "url": "https://s1.ticketm.net/dam/a/138/09f8507b-e5bd-400f-8363-8c3b83e82138_RETINA_LANDSCAPE_16_9.jpg",
+      "width": 1136
+    },
+    {
+      "fallback": false,
+      "height": 115,
+      "ratio": "16_9",
+      "url": "https://s1.ticketm.net/dam/a/138/09f8507b-e5bd-400f-8363-8c3b83e82138_EVENT_DETAIL_PAGE_16_9.jpg",
+      "width": 205
+    },
+    {
+      "fallback": false,
+      "height": 1365,
+      "ratio": "16_9",
+      "url": "https://s1.ticketm.net/dam/a/138/09f8507b-e5bd-400f-8363-8c3b83e82138_SOURCE",
+      "width": 2426
+    },
+    {
+      "fallback": false,
+      "height": 576,
+      "ratio": "16_9",
+      "url": "https://s1.ticketm.net/dam/a/138/09f8507b-e5bd-400f-8363-8c3b83e82138_TABLET_LANDSCAPE_16_9.jpg",
+      "width": 1024
+    },
+    {
+      "fallback": false,
+      "height": 203,
+      "ratio": "3_2",
+      "url": "https://s1.ticketm.net/dam/a/138/09f8507b-e5bd-400f-8363-8c3b83e82138_ARTIST_PAGE_3_2.jpg",
+      "width": 305
+    },
+    {
+      "fallback": false,
+      "height": 683,
+      "ratio": "3_2",
+      "url": "https://s1.ticketm.net/dam/a/138/09f8507b-e5bd-400f-8363-8c3b83e82138_TABLET_LANDSCAPE_3_2.jpg",
+      "width": 1024
+    },
+    {
+      "fallback": false,
+      "height": 427,
+      "ratio": "3_2",
+      "url": "https://s1.ticketm.net/dam/a/138/09f8507b-e5bd-400f-8363-8c3b83e82138_RETINA_PORTRAIT_3_2.jpg",
+      "width": 640
+    },
+    {
+      "fallback": false,
+      "height": 360,
+      "ratio": "16_9",
+      "url": "https://s1.ticketm.net/dam/a/138/09f8507b-e5bd-400f-8363-8c3b83e82138_RETINA_PORTRAIT_16_9.jpg",
+      "width": 640
+    },
+    {
+      "fallback": false,
+      "height": 1152,
+      "ratio": "16_9",
+      "url": "https://s1.ticketm.net/dam/a/138/09f8507b-e5bd-400f-8363-8c3b83e82138_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+      "width": 2048
+    },
+    {
+      "fallback": false,
+      "height": 56,
+      "ratio": "16_9",
+      "url": "https://s1.ticketm.net/dam/a/138/09f8507b-e5bd-400f-8363-8c3b83e82138_RECOMENDATION_16_9.jpg",
+      "width": 100
+    },
+    {
+      "fallback": false,
+      "height": 225,
+      "ratio": "4_3",
+      "url": "https://s1.ticketm.net/dam/a/138/09f8507b-e5bd-400f-8363-8c3b83e82138_CUSTOM.jpg",
+      "width": 305
+    }
+  ],
+  "locale": "en-us",
+  "name": "UFC 299 Miami",
+  "pleaseNote": "Card/Timing Subject to Change",
+  "priceRanges": [
+    {
+      "currency": "USD",
+      "max": 6000.0,
+      "min": 250.0,
+      "type": "standard"
+    }
+  ],
+  "products": [
+    {
+      "classifications": [
+        {
+          "family": false,
+          "genre": {
+            "id": "KnvZfZ7v7ll",
+            "name": "Undefined"
+          },
+          "primary": true,
+          "segment": {
+            "id": "KZFzniwnSyZfZ7v7n1",
+            "name": "Miscellaneous"
+          },
+          "subGenre": {
+            "id": "KZazBEonSMnZfZ7vAv1",
+            "name": "Undefined"
+          },
+          "subType": {
+            "id": "KZFzBErXgnZfZ7vAe6",
+            "name": "Membership"
+          },
+          "type": {
+            "id": "KZAyXgnZfZ7v7l6",
+            "name": "Merchandise"
+          }
+        }
+      ],
+      "id": "vvG1VZbeE2HoXS",
+      "name": "UFC Fight Club Champion Membership",
+      "type": "Upsell",
+      "url": "https://www.ticketmaster.com/ufc-fight-club-champion-membership-miami-florida-03-09-2024/event/0D006029CFF11FB3"
+    },
+    {
+      "classifications": [
+        {
+          "family": false,
+          "genre": {
+            "id": "KnvZfZ7v7ll",
+            "name": "Undefined"
+          },
+          "primary": true,
+          "segment": {
+            "id": "KZFzniwnSyZfZ7v7n1",
+            "name": "Miscellaneous"
+          },
+          "subGenre": {
+            "id": "KZazBEonSMnZfZ7vAv1",
+            "name": "Undefined"
+          },
+          "subType": {
+            "id": "KZFzBErXgnZfZ7vAe6",
+            "name": "Membership"
+          },
+          "type": {
+            "id": "KZAyXgnZfZ7v7l6",
+            "name": "Merchandise"
+          }
+        }
+      ],
+      "id": "vvG1VZbeE2w-XR",
+      "name": "UFC Fight Club Legend Membership",
+      "type": "Upsell",
+      "url": "https://www.ticketmaster.com/ufc-fight-club-legend-membership-miami-florida-03-09-2024/event/0D006029CFCA1FAF"
+    },
+    {
+      "classifications": [
+        {
+          "family": false,
+          "genre": {
+            "id": "KnvZfZ7v7ll",
+            "name": "Undefined"
+          },
+          "primary": true,
+          "segment": {
+            "id": "KZFzniwnSyZfZ7v7n1",
+            "name": "Miscellaneous"
+          },
+          "subGenre": {
+            "id": "KZazBEonSMnZfZ7vAv1",
+            "name": "Undefined"
+          },
+          "subType": {
+            "id": "KZFzBErXgnZfZ7vAe6",
+            "name": "Membership"
+          },
+          "type": {
+            "id": "KZAyXgnZfZ7v7l6",
+            "name": "Merchandise"
+          }
+        }
+      ],
+      "id": "vvG1VZbeE87sXU",
+      "name": "UFC Fight Club Challenger Membership",
+      "type": "Upsell",
+      "url": "https://www.ticketmaster.com/ufc-fight-club-challenger-membership-miami-florida-03-09-2024/event/0D006029D0131FB6"
+    },
+    {
+      "classifications": [
+        {
+          "family": false,
+          "genre": {
+            "id": "KnvZfZ7v7ll",
+            "name": "Undefined"
+          },
+          "primary": true,
+          "segment": {
+            "id": "KZFzniwnSyZfZ7v7n1",
+            "name": "Miscellaneous"
+          },
+          "subGenre": {
+            "id": "KZazBEonSMnZfZ7vAv1",
+            "name": "Undefined"
+          },
+          "subType": {
+            "id": "KZFzBErXgnZfZ7vAFk",
+            "name": "Premier"
+          },
+          "type": {
+            "id": "KZAyXgnZfZ7vAva",
+            "name": "Parking"
+          }
+        }
+      ],
+      "id": "vvG1VZbeJpzoGU",
+      "name": "Kaseya Center Parking: UFC 299 Miami",
+      "type": "Parking",
+      "url": "https://www.ticketmaster.com/kaseya-center-parking-ufc-299-miami-miami-florida-03-09-2024/event/0D00602996E11336"
+    }
+  ],
+  "sales": {
+    "presales": [
+      {
+        "endDateTime": "2024-01-12T14:00:00Z",
+        "name": "UFC Presales",
+        "startDateTime": "2024-01-11T15:00:00Z"
+      },
+      {
+        "endDateTime": "2024-01-11T14:00:00Z",
+        "name": "Fight Club Presale and Bundle",
+        "startDateTime": "2024-01-10T15:00:00Z"
+      },
+      {
+        "endDateTime": "2024-01-12T14:00:00Z",
+        "name": "Newsletter Presale",
+        "startDateTime": "2024-01-11T15:00:00Z"
+      },
+      {
+        "endDateTime": "2024-01-12T14:00:00Z",
+        "name": "Official Platinum Presale",
+        "startDateTime": "2024-01-10T15:00:00Z"
+      },
+      {
+        "endDateTime": "2024-03-04T02:15:00Z",
+        "name": "Official Platinum Onsale",
+        "startDateTime": "2024-01-12T15:00:00Z"
+      }
+    ],
+    "public": {
+      "endDateTime": "2024-03-10T02:15:00Z",
+      "startDateTime": "2024-01-12T15:00:00Z",
+      "startTBA": false,
+      "startTBD": false
+    }
+  },
+  "seatmap": {
+    "staticUrl": "https://maps.ticketmaster.com/maps/geometry/3/event/0D005F959A191600/staticImage?type=png&systemId=HOST"
+  },
+  "test": false,
+  "ticketLimit": {
+    "info": "There is an 8 ticket limit for the Fight Club Presale and Newsletter Presale."
+  },
+  "ticketing": {
+    "allInclusivePricing": {
+      "enabled": false
+    },
+    "safeTix": {
+      "enabled": true
+    }
+  },
+  "type": "event",
+  "url": "https://www.ticketmaster.com/ufc-299-miami-miami-florida-03-09-2024/event/0D005F959A191600"
+}

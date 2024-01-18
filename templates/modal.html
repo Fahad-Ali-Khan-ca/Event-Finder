@@ -1,0 +1,39 @@
+<div class="modal fade modal-xl" id="eventModal" tabindex="-1" aria-labelledby="eventModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <!-- Event name will be set here -->
+                <h5 class="modal-title" id="eventModalLabel">Event: <span id="eventName"></span></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Event Location will be set here -->
+                <p id="eventLocation"></p>
+                <!-- Event Date will be set here -->
+                <p id="eventDate"></p>
+                <!-- Other details like seat map URL, venue address, etc. -->
+                <!-- #display the seat map url as an image but have dropdown to show the image  -->
+                <img id="seatMapUrl" src="" alt="Seat Map" />
+                <p id="venueAddress"></p>
+                <p id="cityCountry"></p>
+                <p id="priceRange"></p>
+                <p id="saleDates"></p>
+                <img id="firstImageUrl" src="" alt="Event Image" />
+                <a id="eventUrl" href="#" target="_blank">Event Page</a>
+                <p id="attractions"></p>
+                <p id="ageRestrictions"></p>
+                <p id="pleaseNote"></p>
+                <p id="startEndDate"></p>
+                <p id="ticketLimit"></p>
+                <p id="boxOfficeInfo"></p>
+                <p id="generalInfo"></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <!-- button to redirect to event url -->
+                <a id="eventUrl" href="#" type="button" class="btn btn-primary" data-bs-dismiss="modal">Buy Tickets</a>
+
+            </div>
+        </div>
+    </div>
+</div>

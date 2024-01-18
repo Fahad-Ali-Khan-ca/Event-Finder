@@ -4,6 +4,8 @@
 <!-- Include the Owl Carousel default theme (optional) -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
 <link rel="stylesheet" href="{{ url_for('static', filename='css/card_carousal.css') }}">
+<!--  custom script for setting up the carousel -->
+<script src="{{ url_for('static', filename='js/carousel-setup.js') }}"></script>
 
 <div class="carousel-wrap">
   <div class="owl-carousel owl-theme">
@@ -22,31 +24,5 @@
 </div>
 
 
-<script>
 
-$(document).ready(function(){
-  $('.owl-carousel').owlCarousel({
-      margin: 10,
-      nav: true,
-      navText: [
-        "<i class='fa fa-chevron-left'></i>",
-        "<i class='fa fa-chevron-right'></i>"
-      ],
-      responsive: {
-          0: {
-              items: 1
-          },
-          600: {
-              items: 3
-          },
-          1000: {
-              items: 3
-          }
-      }
-  });
-});
-
-
-</script>
-      
     
